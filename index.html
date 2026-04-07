@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Electron</title>
+    <!-- <script defer src="index.js"></script> -->
+    <script defer src="renderer.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- <h1>Hello from elelelelectron</h1> -->
+     <div class="search-wrapper">
+        <input id="song-input" type="text" placeholder="Enter song name..." />
+        <div id="suggestions">
+          <!-- <a href="#">
+            <img src="music/kekka-orai-cover.png" alt="" height="32px"">
+            kekka orai
+        </a> -->
+        </div>
+      </div>
+    <div class="container">
+      <!-- <p>👋</p>
+    <p id="info"></p> -->
+      <!-- <button id="dark-light">☾/☀</button> -->
+      <div id="song-cover">
+        <img id="cover" src="" alt="">
+        <!-- <img src="music/lover-girl-cover.jpg" alt="song-cover"> -->
+      </div>
+      <p id="song-name"></p>
+      <p id="artist-name"></p>
+      <audio src="" id="song-audio"></audio>
+      <!-- <meter value="0" id="song-progress"></meter> -->
+      <input type="range" value="0" id="song-progress">
+      <div id="duration">
+        <p id="currentTime"></p>
+        <p id="totalTime"></p>
+      </div>
+      <div id="song-buttons">
+        <button id="previous" class="prevBtn">
+          <img src="images/previousButton.png" alt="previous" id="prev-img" />
+        </button>
+        <button id="pause-play" class="pause-playBtn">
+          <img src="images/playButton.png" alt="play" id="play-img" />
+        </button>
+        <button id="next" class="nextBtn">
+          <img src="images/nextButton.png" alt="next" id="next-img" />
+        </button>
+      </div>
+    </div>
+    
+    <div id="bottomContainer">
+      <input type="range" value="0" id="song-progress2">
+      <div id="small-song-cover">
+        <img src="" alt="" id="smallCover">
+      </div>
+      <div id="smallSongTitle">
+      <p id="small-song-name">title</p>
+      <p id="small-artist-name">title2</p>
+      </div>
+      <div id="buttonsSection">
+        <div id="miniControls">
+        <button id="previous2" class="prevBtn">
+          <img src="images/previousButton.png" alt="previous" id="prev-img2" />
+        </button>
+        <button id="pause-play2" class="pause-playBtn">
+          <img src="images/playButton.png" alt="play" id="play-img2" />
+          <button id="next2" class="nextBtn">
+          <img src="images/nextButton.png" alt="next" id="next-img2" />
+        </button>
+        </div>
+        <div id="finalBtn">
+          <button id="hideBottom">△</button>  
+        </div>
+        
+      </div>
+      
+    </div>
+  </body>
+  <!-- <script defer src="renderer.js"></script> -->
+</html>
