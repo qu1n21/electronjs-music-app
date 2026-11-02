@@ -5,23 +5,66 @@
 
 A simple desktop music player built using Electron.js. The application plays locally stored MP3 files and provides basic music playback controls.
 
+## Features
+
+- Play and pause music
+- Skip forwards and backwards between tracks
+- Rewind and fast-forward through a track
+- Seek to different points using the playback timeline
+- Display track information and cover artwork
+
 ## Technologies
--Electron.js
--HTML
--CSS
--JavaScript
--Node.js
+- Electron.js
+- HTML
+- CSS
+- JavaScript
+- Node.js
 
+## Installation
+1. Clone the repository.
+2. Navigate to the project directory.
+3. Install the dependencies:
+    ```
+    npm install
+    ```
+4. Start the application:
+   ```
+   npm start
+   ``` 
+A window should open with the music player.
 
-## **Installation**
-Firstly, install all the node modules with **npm i**.
+## Additional info
+The application currently includes a small selection of classical music recordings. Music files are stored locally as MP3s.
 
-Next, run **npm start** and a window should open with the app!
+To extend the playlist, add your own MP3 files to the music folder and update the song array in the JavaScript file, following the existing format.
 
-## **Additional info**
-There are only a few songs at the moment (all copyright free for legality), using local mp3s. If you'd like to extend the playlist, add in your own mp3s, following the format of the array!
+## Music and Asset Credits
+The included music recordings and artwork are sourced from third-party creators and archives. Their respective sources and licences are credited below.
+### Für Elise
+- Composer: Ludwig van Beethoven
+- Performer: V. Gao
+- Licence: [CC0](https://creativecommons.org/publicdomain/zero/1.0/)
+- Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:FurElise.ogg)
 
-## **Future plans**
-- Use a more reliable way to store the songs and info, such as a database.
-- Possibly find a better way of storing the songs themselves, rather than mp3s -perhaps an api or a cloud method.
-- Find a way to intergrate song info automatically rather than manually.
+### The Entertainer
+- Composer: Scott Joplin
+- Performer: Adam Cuerden
+- Licence: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+- Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:The_Entertainer_-_1902_-_By_Scott_Joplin.ogg)
+
+### Moonlight Sonata
+- Composer: Ludwig van Beethoven
+- Performer: Not specified
+- Copyright status: Public domain (Public Domain Mark 1.0)
+- Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Moonlight_Sonata.ogg)
+
+### Gymnopédie No. 1
+- Composer: Erik Satie
+- Performer: Not specified
+- Licence: [CC0](https://creativecommons.org/publicdomain/zero/1.0/)
+- Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gymnopedie_No._1..ogg)
+
+## Future Improvements
+- Introduce a more reliable way of storing song information, such as a database.
+- Explore alternative methods of storing and accessing music files, such as cloud storage or an API.
+- Automatically retrieve track information rather than entering it manually.
