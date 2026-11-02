@@ -5,6 +5,21 @@
 
 A simple desktop music player built using Electron.js. The application plays locally stored MP3 files and provides basic music playback controls.
 
+## Screenshots
+
+### Music Player
+
+The main interface, featuring cover art and music playback controls.
+<p align="center">
+  <img src="screenshots/music-player-main.png" alt="Main music player interface" width="650">
+</p>
+
+### Search
+The search interface, with the music player minimised into a playback bar at the bottom of the window.
+<p align="center">
+  <img src="screenshots/music-player-search.png" alt="Music search interface" width="650">
+</p>
+
 ## Features
 
 - Play and pause music
@@ -67,6 +82,7 @@ The included music recordings and artwork are sourced from third-party creators 
 ## Future Improvements
 - Add a slider to adjust volume within the application.
 - Add a "library" to see all current songs available.
+- Add a queue, shuffle and repeat system.
 - Introduce a more reliable way of storing song information, such as a database.
 - Explore alternative methods of storing and accessing music files, such as cloud storage or an API.
 - Automatically retrieve track information rather than entering it manually.
