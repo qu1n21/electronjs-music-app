@@ -82,7 +82,8 @@ The included music recordings and artwork are sourced from third-party creators 
 ## Future Improvements
 - Add a slider to adjust volume within the application.
 - Add a "library" to see all current songs available.
-- Add a queue, shuffle and repeat system.
+- Implement queue management, shuffle and repeat functions.
+- Improve the overall UI.
 - Introduce a more reliable way of storing song information, such as a database.
 - Explore alternative methods of storing and accessing music files, such as cloud storage or an API.
 - Automatically retrieve track information rather than entering it manually.
