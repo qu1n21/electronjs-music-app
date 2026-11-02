@@ -25,8 +25,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const suggestions = document.querySelector('#suggestions');
     for (let song of songs) {
-        // console.log(song)
-        // console.log(songs)
         const list = document.createElement("a")
         const listCover = document.createElement("img")
         list.classList.add("search-names")
@@ -45,7 +43,6 @@ document.addEventListener("DOMContentLoaded", () => {
             smallArtistName.textContent = song.artist
             cover.append(coverImg)
             currentSong = song;
-            // console.log(cover)
             songAudio.src = song.link;
             songAudio.currentTime = 0;
             search.value = "";
