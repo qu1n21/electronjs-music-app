@@ -65,6 +65,8 @@ The included music recordings and artwork are sourced from third-party creators 
 - Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gymnopedie_No._1..ogg)
 
 ## Future Improvements
+- Add a slider to adjust volume within the application.
+- Add a "library" to see all current songs available.
 - Introduce a more reliable way of storing song information, such as a database.
 - Explore alternative methods of storing and accessing music files, such as cloud storage or an API.
 - Automatically retrieve track information rather than entering it manually.
